@@ -76,8 +76,6 @@ def Register():
     EmailEntry.place(x=150,y=60)
 
     def RegistrandoNoBanco():
-        UserEntry.delete(0,'end')
-        PassEntry.delete(0,'end')
         Name = NomeEntry.get() #Variavel Name recebe valor da variável NomeEntry
         Email = EmailEntry.get()
         User = UserEntry.get()
